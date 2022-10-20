@@ -1,0 +1,184 @@
+1665777455700	geckodriver	INFO	Listening on 127.0.0.1:12395
+1665777458777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12396" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileqrs33w"
+1665777459096	Marionette	INFO	Marionette enabled
+1665777459101	Marionette	INFO	Listening on port 12408
+Read port: 12408
+WebDriver BiDi listening on ws://127.0.0.1:12396
+1665777459210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileqrs33w\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:12396/devtools/browser/2b4288f1-b314-4c30-9f54-a6b750e3a186
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665777482639	Marionette	INFO	Stopped listening on port 12408
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665777559081	geckodriver	INFO	Listening on 127.0.0.1:12560
+1665777562138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12561" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileg7zcua"
+1665777562446	Marionette	INFO	Marionette enabled
+1665777562451	Marionette	INFO	Listening on port 12572
+Read port: 12572
+WebDriver BiDi listening on ws://127.0.0.1:12561
+1665777562570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileg7zcua\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:12561/devtools/browser/0a207b25-3655-4a11-ba7f-3d637efc3abb
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665777577109	Marionette	INFO	Stopped listening on port 12572
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665777792737	geckodriver	INFO	Listening on 127.0.0.1:12829
+1665777795798	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12830" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile7QBIIT"
+1665777796086	Marionette	INFO	Marionette enabled
+1665777796090	Marionette	INFO	Listening on port 12841
+Read port: 12841
+WebDriver BiDi listening on ws://127.0.0.1:12830
+1665777796187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile7QBIIT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:12830/devtools/browser/e45363d5-3fd9-4421-8f54-62dd17f14625
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665777809337	Marionette	INFO	Stopped listening on port 12841
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665777832605	geckodriver	INFO	Listening on 127.0.0.1:12961
+1665777835670	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "12962" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileSPDC0Z"
+1665777835974	Marionette	INFO	Marionette enabled
+1665777835979	Marionette	INFO	Listening on port 12977
+Read port: 12977
+WebDriver BiDi listening on ws://127.0.0.1:12962
+1665777836076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileSPDC0Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:12962/devtools/browser/eac255a6-f7f0-4c6f-8ef3-8c694453af91
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665777847064	Marionette	INFO	Stopped listening on port 12977
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778007277	geckodriver	INFO	Listening on 127.0.0.1:13224
+1665778010329	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileN86YCt"
+1665778010642	Marionette	INFO	Marionette enabled
+1665778010646	Marionette	INFO	Listening on port 13240
+Read port: 13240
+WebDriver BiDi listening on ws://127.0.0.1:13225
+1665778010736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileN86YCt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13225/devtools/browser/8a544f50-622e-4d64-b76f-abceabbd024b
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778021314	Marionette	INFO	Stopped listening on port 13240
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778131906	geckodriver	INFO	Listening on 127.0.0.1:13429
+1665778134961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13430" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileJ5lgF1"
+1665778135245	Marionette	INFO	Marionette enabled
+1665778135249	Marionette	INFO	Listening on port 13444
+Read port: 13444
+WebDriver BiDi listening on ws://127.0.0.1:13430
+1665778135368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileJ5lgF1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13430/devtools/browser/94ba4e00-2302-4f04-96c7-5fcf6449fec2
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778151076	Marionette	INFO	Stopped listening on port 13444
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778167958	geckodriver	INFO	Listening on 127.0.0.1:13560
+1665778171037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13561" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile0srnNa"
+1665778171323	Marionette	INFO	Marionette enabled
+1665778171328	Marionette	INFO	Listening on port 13573
+Read port: 13573
+WebDriver BiDi listening on ws://127.0.0.1:13561
+1665778171415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile0srnNa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13561/devtools/browser/a7262312-a72d-484e-a3d8-c0d117efbbd5
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778180482	Marionette	INFO	Stopped listening on port 13573
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778182176	geckodriver	INFO	Listening on 127.0.0.1:13649
+1665778185226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13650" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileaCGQqs"
+1665778185514	Marionette	INFO	Marionette enabled
+1665778185518	Marionette	INFO	Listening on port 13663
+Read port: 13663
+WebDriver BiDi listening on ws://127.0.0.1:13650
+1665778185609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileaCGQqs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13650/devtools/browser/cf5b9b1d-9f9b-4332-bf9a-f3d8af754755
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778204324	Marionette	INFO	Stopped listening on port 13663
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778353936	geckodriver	INFO	Listening on 127.0.0.1:13939
+1665778356989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "13940" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile9mnP0n"
+1665778357352	Marionette	INFO	Marionette enabled
+1665778357358	Marionette	INFO	Listening on port 13957
+WebDriver BiDi listening on ws://127.0.0.1:13940
+Read port: 13957
+1665778357594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile9mnP0n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:13940/devtools/browser/119e1bf3-60c2-443e-b1c2-b72ad5854a5a
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778372916	Marionette	INFO	Stopped listening on port 13957
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778501762	geckodriver	INFO	Listening on 127.0.0.1:14168
+1665778504848	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14169" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilehMFsyj"
+1665778505134	Marionette	INFO	Marionette enabled
+1665778505138	Marionette	INFO	Listening on port 14181
+Read port: 14181
+WebDriver BiDi listening on ws://127.0.0.1:14169
+1665778505226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilehMFsyj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:14169/devtools/browser/3d6be3d2-1b98-461f-a7cb-a68b01633d47
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778517055	Marionette	INFO	Stopped listening on port 14181
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778662068	geckodriver	INFO	Listening on 127.0.0.1:14373
+1665778665109	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14374" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilejIivIz"
+1665778665395	Marionette	INFO	Marionette enabled
+1665778665399	Marionette	INFO	Listening on port 14386
+Read port: 14386
+WebDriver BiDi listening on ws://127.0.0.1:14374
+1665778665504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilejIivIz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:14374/devtools/browser/5c63dcad-9bda-4135-b37c-293cf4c05fa2
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778678981	Marionette	INFO	Stopped listening on port 14386
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778748801	geckodriver	INFO	Listening on 127.0.0.1:14546
+1665778751864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14547" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile6Wyq9N"
+1665778752153	Marionette	INFO	Marionette enabled
+1665778752157	Marionette	INFO	Listening on port 14560
+Read port: 14560
+WebDriver BiDi listening on ws://127.0.0.1:14547
+1665778752245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile6Wyq9N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:14547/devtools/browser/2f066ed1-dac6-4e3c-a235-5204951e96fd
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778772578	Marionette	INFO	Stopped listening on port 14560
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778794865	geckodriver	INFO	Listening on 127.0.0.1:14695
+1665778797924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14696" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileANTjTx"
+1665778798209	Marionette	INFO	Marionette enabled
+1665778798214	Marionette	INFO	Listening on port 14709
+Read port: 14709
+WebDriver BiDi listening on ws://127.0.0.1:14696
+1665778798305	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileANTjTx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:14696/devtools/browser/c78cfc09-55d2-4de0-95a6-28a9db6ba9a0
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778814174	Marionette	INFO	Stopped listening on port 14709
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665778842940	geckodriver	INFO	Listening on 127.0.0.1:14832
+1665778846017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "14833" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileHrOoTJ"
+1665778846302	Marionette	INFO	Marionette enabled
+1665778846307	Marionette	INFO	Listening on port 14844
+Read port: 14844
+WebDriver BiDi listening on ws://127.0.0.1:14833
+1665778846411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileHrOoTJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:14833/devtools/browser/3d274bf3-293c-4943-ae55-9af598091bb5
+JavaScript warning: https://www.redditstatic.com/reddit-init.en.4-tSxFR4sOk.js, line 8: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://old.reddit.com."
+1665778860757	Marionette	INFO	Stopped listening on port 14844
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
