@@ -1,0 +1,19 @@
+h1 {
+    font-size: 200px;
+    color: red;
+
+}
+
+.bacon {
+    background-color: green;
+}
+img {
+    background-color: red;
+}
+img:hover {
+    background-color: gold;
+}
+
+#heading {
+    color: blue;
+}
