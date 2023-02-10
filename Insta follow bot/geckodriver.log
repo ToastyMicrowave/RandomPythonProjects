@@ -1,0 +1,796 @@
+1675164873515	geckodriver	INFO	Listening on 127.0.0.1:14752
+1675164876574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "14753" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile3rRcSO"
+1675164876969	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675164876975	Marionette	INFO	Listening on port 14763
+Read port: 14763
+WebDriver BiDi listening on ws://127.0.0.1:14753
+1675164877113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile3rRcSO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:14753/devtools/browser/920d34cd-ccae-41da-a869-4e97329a3853
+1675164880774	Marionette	INFO	Stopped listening on port 14763
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675164884675	geckodriver	INFO	Listening on 127.0.0.1:14796
+1675164887746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "14797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileXSdo31"
+1675164888025	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675164888029	Marionette	INFO	Listening on port 14807
+Read port: 14807
+WebDriver BiDi listening on ws://127.0.0.1:14797
+1675164888138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileXSdo31\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:14797/devtools/browser/c9a4dcbf-313c-423b-8123-098ca766d713
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 71: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1675165070444	Marionette	INFO	Stopped listening on port 14807
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675165072122	geckodriver	INFO	Listening on 127.0.0.1:14975
+1675165075175	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "14976" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile1n5u7h"
+1675165075463	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675165075467	Marionette	INFO	Listening on port 14986
+Read port: 14986
+WebDriver BiDi listening on ws://127.0.0.1:14976
+1675165075568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile1n5u7h\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:14976/devtools/browser/af9b1059-cc15-4918-a80f-7dc15840c1be
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675165090889	Marionette	INFO	Stopped listening on port 14986
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675165093043	geckodriver	INFO	Listening on 127.0.0.1:7670
+1675165096090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "7671" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilehOaVcn"
+1675165096376	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675165096381	Marionette	INFO	Listening on port 7682
+Read port: 7682
+WebDriver BiDi listening on ws://127.0.0.1:7671
+1675165096485	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilehOaVcn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:7671/devtools/browser/534383bd-ad4a-4dbf-b4ff-ba6e80848438
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675165125570	Marionette	INFO	Stopped listening on port 7682
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675165127358	geckodriver	INFO	Listening on 127.0.0.1:7756
+1675165130409	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "7757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileRGUXoz"
+1675165130711	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675165130716	Marionette	INFO	Listening on port 7770
+Read port: 7770
+WebDriver BiDi listening on ws://127.0.0.1:7757
+1675165130831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileRGUXoz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:7757/devtools/browser/5cef9474-1b01-484a-9d33-fe223d13b368
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 71: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 572))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967303/pagestyle23 (resource://devtools/server/actors/page-style.js:572:5)", "resource://devtools/shared/protocol/Front.js", 383))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 205: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 205: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 205: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+JavaScript error: resource://devtools/client/inspector/rules/utils/utils.js, line 199: TypeError: rule is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm,1675166431215	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "8700" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileV7NV63"
+1675166431513	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166431518	Marionette	INFO	Listening on port 8710
+Read port: 8710
+WebDriver BiDi listening on ws://127.0.0.1:8700
+1675166431631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileV7NV63\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:8700/devtools/browser/154d17b5-983e-482e-8b52-4639747cc9e4
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166461698	Marionette	INFO	Stopped listening on port 8710
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675166463397	geckodriver	INFO	Listening on 127.0.0.1:8780
+1675166466434	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "8781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileAbitl4"
+1675166466730	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166466735	Marionette	INFO	Listening on port 8792
+Read port: 8792
+WebDriver BiDi listening on ws://127.0.0.1:8781
+1675166466848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileAbitl4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:8781/devtools/browser/a91d3a21-ae97-42c6-9827-67a135b1c1aa
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166507384	Marionette	INFO	Stopped listening on port 8791675166509665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "8884" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileXJ0abZ"
+1675166509945	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166509949	Marionette	INFO	Listening on port 8896
+Read port: 8896
+WebDriver BiDi listening on ws://127.0.0.1:8884
+1675166510052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileXJ0abZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:8884/devtools/browser/1b0aa2d3-e418-41cb-9f6d-6d17e860587e
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166557812	Marionette	INFO	Stopped listening on port 8896
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675166559654	geckodriver	INFO	Listening on 127.0.0.1:9027
+1675166562716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "9028" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile4i1d2S"
+1675166563005	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166563010	Marionette	INFO	Listening on port 9040
+Read port: 9040
+WebDriver BiDi listening on ws://127.0.0.1:9028
+1675166563107	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile4i1d2S\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9028/devtools/browser/7f0a4c7f-533c-4b2d-84dc-9fa30f60b9bd
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166614693	Marionette	INFO	Stopped listening on port 9041675166617023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "9168" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileoy0TAx"
+1675166617281	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166617285	Marionette	INFO	Listening on port 9180
+Read port: 9180
+WebDriver BiDi listening on ws://127.0.0.1:9168
+1675166617445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileoy0TAx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9168/devtools/browser/fa7b6dc2-24b5-45f5-b132-0e4b8df2f8c0
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166657774	Marionette	INFO	Stopped listening on port 9180
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675166659779	geckodriver	INFO	Listening on 127.0.0.1:9289
+1675166662860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "9290" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileWpjmfC"
+1675166663133	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166663137	Marionette	INFO	Listening on port 9304
+Read port: 9304
+WebDriver BiDi listening on ws://127.0.0.1:9290
+1675166663239	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileWpjmfC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9290/devtools/browser/2a3f1a5c-92d8-49c2-98fc-b665f0c7cf2c
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166742999	Marionette	INFO	Stopped listening on port 9304
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675166744845	geckodriver	INFO	Listening on 127.0.0.1:9446
+1675166747919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "9447" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileEd7uwv"
+1675166748195	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166748200	Marionette	INFO	Listening on port 9460
+Read port: 9460
+WebDriver BiDi listening on ws://127.0.0.1:9447
+1675166748308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileEd7uwv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9447/devtools/browser/244c5a82-a72c-4f6e-8014-897375ad3807
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166806464	Marionette	INFO	Stopped listening on port 9460
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675166808245	geckodriver	INFO	Listening on 127.0.0.1:9565
+1675166811311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "9566" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileNlD3Df"
+1675166811591	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166811596	Marionette	INFO	Listening on port 9577
+Read port: 9577
+WebDriver BiDi listening on ws://127.0.0.1:9566
+1675166811689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileNlD3Df\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9566/devtools/browser/5a1451e5-3d8c-4802-b82e-29fecba5ea5f
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166853165	Marionette	INFO	Stopped listening on port 9577
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675166854750	geckodriver	INFO	Listening on 127.0.0.1:9683
+1675166857806	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "9684" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileqRAdVr"
+1675166858067	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166858072	Marionette	INFO	Listening on port 9694
+WebDriver BiDi listening on ws://127.0.0.1:9684
+Read port: 9694
+1675166858256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileqRAdVr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9684/devtools/browser/90321bd6-c7de-4963-9de7-46ad06649264
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166883363	Marionette	INFO	Stopped listening on port 9694
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675166885177	geckodriver	INFO	Listening on 127.0.0.1:9836
+1675166888230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "9837" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileC7AVEx"
+1675166888525	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166888533	Marionette	INFO	Listening on port 9852
+Read port: 9852
+WebDriver BiDi listening on ws://127.0.0.1:9837
+1675166888634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileC7AVEx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9837/devtools/browser/2d961831-4c59-46a6-bab7-2f6fee738ea2
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166908559	Marionette	INFO	Stopped listening on port 9852
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29\n"
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675166910248	geckodriver	INFO	Listening on 127.0.0.1:9937
+1675166913294	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "9938" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileKDjYcE"
+1675166913675	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166913681	Marionette	INFO	Listening on port 9948
+Read port: 9948
+WebDriver BiDi listening on ws://127.0.0.1:9938
+1675166913840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileKDjYcE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:9938/devtools/browser/75ab8aef-bf07-42d7-a17f-70f88ec6ed86
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675166930900	Marionette	INFO	Stopped listening on port 9948
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29\n"
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675166933211	geckodriver	INFO	Listening on 127.0.0.1:10017
+1675166936255	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "10018" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilelY75l1"
+1675166936613	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675166936621	Marionette	INFO	Listening on port 10029
+Read port: 10029
+WebDriver BiDi listening on ws://127.0.0.1:10018
+1675166936766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilelY75l1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:10018/devtools/browser/21453177-f334-4964-9d08-b513a42e3326
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+1675166948489	Marionette	INFO	Stopped listening on port 10029
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675167013710	geckodriver	INFO	Listening on 127.0.0.1:10128
+1675167016758	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "10129" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileqgx0cL"
+1675167017124	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675167017130	Marionette	INFO	Listening on port 10144
+Read port: 10144
+WebDriver BiDi listening on ws://127.0.0.1:10129
+1675167017294	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileqgx0cL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:10129/devtools/browser/8fb35a81-fb1a-4801-ac49-8fd70bd1fd12
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675167041922	Marionette	INFO	Stopped listening on port 10144
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29\n"
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1675167044825	geckodriver	INFO	Listening on 127.0.0.1:10230
+1675167047898	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "10231" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileqpIaY3"
+1675167048264	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675167048270	Marionette	INFO	Listening on port 10241
+Read port: 10241
+WebDriver BiDi listening on ws://127.0.0.1:10231
+1675167048431	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileqpIaY3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:10231/devtools/browser/93970f65-3a64-4a20-bb7f-d83b7173dc4c
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.jsm", 510))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675167120943	Marionette	INFO	Stopped listening on port 10241
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675167123039	geckodriver	INFO	Listening on 127.0.0.1:10347
+1675167126111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "10348" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileX4X09g"
+1675167126475	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675167126481	Marionette	INFO	Listening on port 10358
+Read port: 10358
+WebDriver BiDi listening on ws://127.0.0.1:10348
+1675167126632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileX4X09g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:10348/devtools/browser/f3d12865-d66d-488c-bf60-8b7ed001dd31
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+1675167185472	Marionette	INFO	Stopped listening on port 10358
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675167187220	geckodriver	INFO	Listening on 127.0.0.1:10435
+1675167190277	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "10436" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileTq9JHe"
+1675167190632	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675167190639	Marionette	INFO	Listening on port 10446
+Read port: 10446
+WebDriver BiDi listening on ws://127.0.0.1:10436
+1675167190810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileTq9JHe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:10436/devtools/browser/fec17f3c-7ca7-4ac1-af9f-f3341f6024c7
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675167545773	Marionette	INFO	Stopped listening on port 10446
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675167547263	geckodriver	INFO	Listening on 127.0.0.1:10678
+1675167550314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "10679" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileunKBFk"
+1675167550737	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675167550743	Marionette	INFO	Listening on port 10690
+Read port: 10690
+WebDriver BiDi listening on ws://127.0.0.1:10679
+1675167550892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileunKBFk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:10679/devtools/browser/95bca810-3be0-42b0-984c-32a2f414fbea
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 764))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 416))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675167609706	Marionette	INFO	Stopped listening on port 10690
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1675167611619	geckodriver	INFO	Listening on 127.0.0.1:10787
+1675167614661	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "10788" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileLpb9Bg"
+1675167615018	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675167615028	Marionette	INFO	Listening on port 10798
+Read port: 10798
+WebDriver BiDi listening on ws://127.0.0.1:10788
+1675167615200	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileLpb9Bg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:10788/devtools/browser/7d2fca58-344f-4f60-a821-fb767e78c019
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 71: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm,1675168112454	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "7275" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileJ7X41T"
+1675168112859	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675168112867	Marionette	INFO	Listening on port 7287
+Read port: 7287
+WebDriver BiDi listening on ws://127.0.0.1:7275
+1675168113042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileJ7X41T\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:7275/devtools/browser/37891b35-6ab0-4dca-82da-5be21dc357b0
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675168134242	Marionette	INFO	Stopped listening on port 7287
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675168320591	geckodriver	INFO	Listening on 127.0.0.1:7504
+1675168323630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "7505" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileyDm0VS"
+1675168324000	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675168324005	Marionette	INFO	Listening on port 7518
+Read port: 7518
+WebDriver BiDi listening on ws://127.0.0.1:7505
+1675168324139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofileyDm0VS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:7505/devtools/browser/22d198ca-74bf-477a-a61f-318b7f285fc7
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ifbU4/yg/l/en_US/QDPgBpodUPL.js?_nc_x=Ij3Wp8lg5Kz, line 38: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675168401792	Marionette	INFO	Stopped listening on port 7518
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675168403873	geckodriver	INFO	Listening on 127.0.0.1:7652
+1675168406931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "7653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilewugYWH"
+1675168407352	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675168407362	Marionette	INFO	Listening on port 7664
+Read port: 7664
+WebDriver BiDi listening on ws://127.0.0.1:7653
+1675168407510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofilewugYWH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:7653/devtools/browser/aac7de4c-fd08-4d06-bc85-2c30c1d29ab5
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675168415097	Marionette	INFO	Stopped listening on port 7664
+Dynamically enable window occlusion 1
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29\n"
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675168416818	geckodriver	INFO	Listening on 127.0.0.1:7714
+1675168419875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "7715" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile8ZLUAg"
+1675168420226	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675168420232	Marionette	INFO	Listening on port 7725
+Read port: 7725
+WebDriver BiDi listening on ws://127.0.0.1:7715
+1675168420406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile8ZLUAg\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:7715/devtools/browser/40d69b87-723c-4677-9a1c-76e74b7aaa08
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675168466340	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168469396	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168472615	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168476074	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168479137	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168481010	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168484320	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168486064	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168489256	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168491188	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168494450	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168497630	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168499611	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1675168533218	Marionette	INFO	Stopped listening on port 7725
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1675168539333	geckodriver	INFO	Listening on 127.0.0.1:7849
+1675168542386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--width=954" "--height=483" "--remote-debugging-port" "7850" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile1Js6eT"
+1675168542783	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1675168542790	Marionette	INFO	Listening on port 7860
+Read port: 7860
+WebDriver BiDi listening on ws://127.0.0.1:7850
+1675168542944	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\kapil\\AppData\\Local\\Temp\\rust_mozprofile1Js6eT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:7850/devtools/browser/89e2fc65-7a60-4569-a3ed-27b8efcf1d4b
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yF/l/en_US/O4onDaVW35_.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1675168576399	Marionette	INFO	Stopped listening on port 7860
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
