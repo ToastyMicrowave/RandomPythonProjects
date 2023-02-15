@@ -30,7 +30,6 @@ sleep(1)
 ActionChains(driver).send_keys(Keys.ENTER).perform()
 sleep(5)
 
-# subs = pd.read_json("./subs.json").to_dict()
 # for sub in subs:
 #     driver.get(f"https://www.reddit.com/r/{sub}/submit")
 #     driver.find_element(
@@ -43,7 +42,7 @@ sleep(5)
 #             By.CSS_SELECTOR, "._1ec_Oj5SWdypd8L-VELKg-").send_keys(title)
 #     driver.find_element(
 #         By.CSS_SELECTOR, "._3zY6b4QJpSz1067ahq73_K").send_keys(url)
-#     if subs[sub]["flair_required"]:
+#     if subs[sub] is not None:
 #         try:
 #             flair_button = driver.find_element(
 #                 By.CSS_SELECTOR, "._1LD2Xsr3fioSkWZ13vMORC")
@@ -83,3 +82,9 @@ sleep(5)
 #         print("Couldn't post to/comment in " + sub)
 #         continue
 #     sleep(1)
+
+
+
+
+
+
