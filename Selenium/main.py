@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 
 
-driver = webdriver.Firefox(executable_path=r"C:\Users\kapil\Downloads\geckodriver.exe")
+driver = webdriver.Firefox()
 driver.get(url="http://orteil.dashnet.org/experiments/cookie/")
 
 timeout = time.time() + 5
