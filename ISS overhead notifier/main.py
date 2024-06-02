@@ -6,7 +6,7 @@ import datetime
 while True:
     MY_LAT = 31.662127
     MY_LONG = 74.852428
-    MY_EMAIL = "kavishchawla.alt@gmail.com"
+    MY_EMAIL = "clowndetected@gmail.com"
     PASS = "lzlrydtqpvxkugru"
 
     # MY AREA SUNRISE / SUNSET TIME
