@@ -1,4 +1,5 @@
 import os
+import json
 import time
 import smtplib
 import logging
@@ -9,16 +10,26 @@ import dotenv
 
 dotenv.load_dotenv()
 
-# ---- Config ----
-MY_LAT = 52.051230
-MY_LONG = 1.144112
-PROXIMITY_DEG = 5                 # how close (in degrees) the ISS must be to notify
-CHECK_INTERVAL = 60              # seconds between checks
-ALERT_COOLDOWN = 6 * 60 * 60      # don't send more than one email per 6 hours
-REQUEST_TIMEOUT = 15              # seconds before an API/SMTP call gives up
+# ---- Config (env vars override the defaults, so you can set them in CI) ----
+def _float_env(name, default):
+    # An unset *or empty* env var falls back to the default. Actions passes
+    # unconfigured `vars.*` as empty strings, so treat those as "not set".
+    val = os.getenv(name, "").strip()
+    return float(val) if val else default
+
+
+MY_LAT = _float_env("MY_LAT", 52.051230)
+MY_LONG = _float_env("MY_LONG", 1.144112)
+PROXIMITY_DEG = _float_env("PROXIMITY_DEG", 5)         # how close (deg) the ISS must be
+ALERT_COOLDOWN = 6 * 60 * 60                            # min seconds between two emails
+REQUEST_TIMEOUT = 15                                    # per API/SMTP call
 
 MY_EMAIL = os.getenv("EMAIL")
 PASS = os.getenv("PASSWORD")
+
+# Optional dedup across runs. In CI we point this at a cached file so a single
+# ISS pass doesn't trigger an email on every scheduled run. Unset = no dedup.
+STATE_FILE = os.getenv("STATE_FILE")
 
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s %(levelname)s %(message)s")
@@ -71,30 +82,45 @@ def send_email():
         conn.send_message(msg)
 
 
+def last_alert_time():
+    """Epoch seconds of the last email we sent, or 0 if unknown."""
+    if not STATE_FILE or not os.path.exists(STATE_FILE):
+        return 0.0
+    try:
+        with open(STATE_FILE) as f:
+            return float(json.load(f).get("last_alert", 0))
+    except (ValueError, OSError, json.JSONDecodeError):
+        return 0.0
+
+
+def record_alert():
+    if not STATE_FILE:
+        return
+    with open(STATE_FILE, "w") as f:
+        json.dump({"last_alert": time.time()}, f)
+
+
 def main():
+    """Run a single check and exit. Cadence is driven by the caller (cron / Actions)."""
     if not MY_EMAIL or not PASS:
-        raise SystemExit("EMAIL and PASSWORD must be set in the .env file.")
-    log.info("ISS notifier started for lat=%s lon=%s", MY_LAT, MY_LONG)
-    last_alert = 0.0
-    while True:
-        try:
-            if is_night():
-                lat, lon = iss_position()
-                if is_overhead(lat, lon):
-                    if time.time() - last_alert >= ALERT_COOLDOWN:
-                        send_email()
-                        last_alert = time.time()
-                        log.info("ISS overhead at (%.2f, %.2f) — email sent", lat, lon)
-                    else:
-                        log.info("ISS overhead, but still within cooldown — not emailing")
-                else:
-                    log.debug("ISS at (%.2f, %.2f) — not overhead", lat, lon)
-            else:
-                log.debug("Daytime here — skipping ISS check")
-        except Exception as e:
-            # Never let a transient network/API error kill the loop.
-            log.warning("Check failed (%s) — will retry", e)
-        time.sleep(CHECK_INTERVAL)
+        raise SystemExit("EMAIL and PASSWORD must be set (env var or .env file).")
+
+    if not is_night():
+        log.info("Daytime at (%.2f, %.2f) — ISS wouldn't be visible, skipping", MY_LAT, MY_LONG)
+        return
+
+    lat, lon = iss_position()
+    if not is_overhead(lat, lon):
+        log.info("ISS at (%.2f, %.2f) — not overhead, nothing to do", lat, lon)
+        return
+
+    if time.time() - last_alert_time() < ALERT_COOLDOWN:
+        log.info("ISS overhead at (%.2f, %.2f), but still within cooldown — not emailing", lat, lon)
+        return
+
+    send_email()
+    record_alert()
+    log.info("ISS overhead at (%.2f, %.2f) — email sent", lat, lon)
 
 
 if __name__ == "__main__":

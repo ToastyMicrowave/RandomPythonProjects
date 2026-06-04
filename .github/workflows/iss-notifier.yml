@@ -1,0 +1,55 @@
+name: ISS overhead notifier
+
+# Runs a single check on a schedule. GitHub's minimum cron interval is 5 minutes;
+# scheduled runs can be delayed under load, which is fine for this. Trigger by hand
+# from the Actions tab to test (workflow_dispatch).
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+# Don't pile up overlapping runs if one is slow / delayed.
+concurrency:
+  group: iss-notifier
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ISS overhead notifier
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: ISS overhead notifier/requirements.txt
+
+      - run: pip install -r requirements.txt
+
+      # Persist the "last email sent" timestamp between runs so a single ISS pass
+      # doesn't email on every scheduled tick. Rolling cache: unique key per run,
+      # restore-keys grabs the most recent previous one.
+      - name: Restore alert state
+        uses: actions/cache@v4
+        with:
+          path: ISS overhead notifier/.iss_state.json
+          key: iss-state-${{ github.run_id }}
+          restore-keys: iss-state-
+
+      - name: Check the ISS
+        env:
+          EMAIL: ${{ secrets.EMAIL }}
+          PASSWORD: ${{ secrets.PASSWORD }}
+          # Optional overrides — set as repo variables if you want a different spot.
+          MY_LAT: ${{ vars.MY_LAT }}
+          MY_LONG: ${{ vars.MY_LONG }}
+          PROXIMITY_DEG: ${{ vars.PROXIMITY_DEG }}
+          STATE_FILE: .iss_state.json
+        run: python main.py

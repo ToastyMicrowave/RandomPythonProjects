@@ -11,7 +11,7 @@ need a desktop session. Anything that sends email or hits an API needs its own `
 
 | Project | What it is |
 | --- | --- |
-| [ISS overhead notifier](ISS%20overhead%20notifier/) | A long-running service that emails me when the ISS is passing overhead at night. Built to run 24/7 on a VM — see its [DEPLOY.md](ISS%20overhead%20notifier/DEPLOY.md). |
+| [ISS overhead notifier](ISS%20overhead%20notifier/) | Emails me when the ISS is passing overhead at night. Runs on a schedule via GitHub Actions — no server needed. See its [DEPLOY.md](ISS%20overhead%20notifier/DEPLOY.md). |
 | [Flash Card app](Flash%20Card%20app/) | Tkinter flashcards for learning French vocabulary. |
 | [Flask](Flask/) | A small Flask app, mostly an excuse to play with custom decorators. |
 | [Higher Lower](Higher%20Lower/) | The "Higher or Lower" guessing game, web version. |
@@ -46,9 +46,10 @@ flask --app app run                # Flask/
 flask --app server:server run      # Higher Lower/
 ```
 
-The ISS notifier is meant to run unattended on a server, not from your laptop. Its
-[DEPLOY.md](ISS%20overhead%20notifier/DEPLOY.md) walks through setting it up as a systemd
-service on a cheap/free Linux VM (Oracle Cloud Free Tier, a Raspberry Pi, etc.).
+The ISS notifier isn't really a "run it on your laptop" app — it's wired up to run on a
+schedule via GitHub Actions (each run does one check and exits). Its
+[DEPLOY.md](ISS%20overhead%20notifier/DEPLOY.md) covers the secrets to set; you can still
+run `python main.py` locally for a one-off check.
 
 ## Notes
 
