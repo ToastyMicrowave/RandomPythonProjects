@@ -1,7 +1,7 @@
 # Random Python Projects
 
-A grab-bag of small Python projects I've built over the years — games, a few bots,
-some web apps, and one-off scripts. Nothing here is a product; it's where I try things out.
+Some small Python projects I've built over the years including games, a few bots,
+some web apps, and one-off scripts.
 
 Everything runs on Python 3.13 (developed on macOS). GUI apps use Tkinter or turtle and
 need a desktop session. Anything that sends email or hits an API needs its own `.env`
@@ -21,9 +21,6 @@ need a desktop session. Anything that sends email or hits an API needs its own `
 | [The Pong game](The%20Pong%20game/) | Classic Pong in turtle graphics. |
 | [Websites](Websites/) | Static and Flask website experiments (a CV site and a personal site). |
 | [quizzler app](quizzler%20app/) | True/false trivia quiz pulling live questions from the Open Trivia DB API. |
-
-> The **Reddit Bot** is its own separate git repo living inside this folder, so it's
-> ignored here.
 
 ## Standalone scripts
 
