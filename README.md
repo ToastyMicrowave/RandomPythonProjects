@@ -1,57 +1,64 @@
 # Random Python Projects
 
-A personal collection of small Python projects, games, bots, and web apps — mostly built while learning.
+A grab-bag of small Python projects I've built over the years — games, a few bots,
+some web apps, and one-off scripts. Nothing here is a product; it's where I try things out.
 
-All projects were tested on **Python 3.13 (macOS)** and currently run. ✅ = verified working; notes call out anything you need to supply (a `.env`, a display, etc.).
+Everything runs on Python 3.13 (developed on macOS). GUI apps use Tkinter or turtle and
+need a desktop session. Anything that sends email or hits an API needs its own `.env`
+(copy the project's `.env.example`).
 
 ## Projects
 
-| Project | What it is | Status |
-| --- | --- | --- |
-| [Amazon Price checker](Amazon%20Price%20checker/) | Scrapes an Amazon product page and emails you when the price drops. | ⚠️ Runs, but fragile — needs `.env` (`EMAIL`/`PASSWORD`); depends on Amazon not serving a CAPTCHA. |
-| [Flash Card app](Flash%20Card%20app/) | Tkinter flashcard app for learning French vocabulary. | ✅ Works (GUI). |
-| [Flask](Flask/) | A small Flask web app with custom decorators. | ✅ Works — `flask --app app run`. |
-| [Higher Lower](Higher%20Lower/) | The "Higher or Lower" guessing game (web version). | ✅ Works — `flask --app server:server run`. |
-| [ISS overhead notifier](ISS%20overhead%20notifier/) | Emails you when the ISS passes overhead at night. | ✅ Works — needs `.env` (`EMAIL`/`PASSWORD`) to send mail. |
-| [Pomodoro Project](Pomodoro%20Project/) | Tkinter Pomodoro timer. | ✅ Works (GUI). |
-| [Selenium](Selenium/) | Auto-clicker for the Cookie Clicker game. | ✅ Works — opens Firefox; Selenium Manager handles the driver automatically. |
-| [Snake game](Snake%20game/) | Classic Snake, built with turtle graphics. | ✅ Works (GUI). |
-| [The Pong game](The%20Pong%20game/) | Classic Pong, built with turtle graphics. | ✅ Works (GUI). |
-| [Websites](Websites/) | Static/Flask website experiments (CV site, personal site). | ✅ Works (static HTML; `CV website/main.py` prints sample markup). |
-| [quizzler app](quizzler%20app/) | True/False trivia quiz pulling live questions from the Open Trivia DB API. | ✅ Works (GUI + live API). |
+| Project | What it is |
+| --- | --- |
+| [ISS overhead notifier](ISS%20overhead%20notifier/) | A long-running service that emails me when the ISS is passing overhead at night. Built to run 24/7 on a VM — see its [DEPLOY.md](ISS%20overhead%20notifier/DEPLOY.md). |
+| [Flash Card app](Flash%20Card%20app/) | Tkinter flashcards for learning French vocabulary. |
+| [Flask](Flask/) | A small Flask app, mostly an excuse to play with custom decorators. |
+| [Higher Lower](Higher%20Lower/) | The "Higher or Lower" guessing game, web version. |
+| [Pomodoro Project](Pomodoro%20Project/) | A Tkinter Pomodoro timer. |
+| [Selenium](Selenium/) | An auto-clicker for Cookie Clicker. |
+| [Snake game](Snake%20game/) | Classic Snake in turtle graphics. |
+| [The Pong game](The%20Pong%20game/) | Classic Pong in turtle graphics. |
+| [Websites](Websites/) | Static and Flask website experiments (a CV site and a personal site). |
+| [quizzler app](quizzler%20app/) | True/false trivia quiz pulling live questions from the Open Trivia DB API. |
 
-> **Reddit Bot** lives in its own separate git repository inside this folder and is intentionally ignored here.
+> The **Reddit Bot** is its own separate git repo living inside this folder, so it's
+> ignored here.
 
 ## Standalone scripts
 
 Single-file scripts live in [scripts/](scripts/):
 
-| Script | What it does | Status |
-| --- | --- | --- |
-| [Hangman.py](scripts/Hangman.py) | Command-line Hangman game (words in `scripts/words.txt`). | ✅ Works (CLI). |
-| [Electronic Config calc.py](scripts/Electronic%20Config%20calc.py) | Calculates the electron configuration for a given atomic number. | ✅ Works (CLI). |
+- [Hangman.py](scripts/Hangman.py) — command-line Hangman (word list in `scripts/words.txt`).
+- [Electronic Config calc.py](scripts/Electronic%20Config%20calc.py) — works out the electron configuration for a given atomic number.
 
 ## Running a project
 
 ```bash
 cd "<project folder>"
-python3 -m venv .venv          # create a virtual environment (ignored by git)
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt   # if the project has one
-python main.py                 # GUI/CLI apps
+python3 -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
+pip install -r requirements.txt    # if the project has one
+python main.py
 ```
 
-For the Flask web apps, start them with Flask instead of `python main.py`:
+The Flask apps start through Flask rather than `python main.py`:
 
 ```bash
-flask --app app run            # Flask/
-flask --app server:server run  # Higher Lower/
+flask --app app run                # Flask/
+flask --app server:server run      # Higher Lower/
 ```
 
-Projects that talk to email/APIs (Amazon Price checker, ISS overhead notifier) need a `.env` file — copy the project's `.env.example` and fill in your own values. Use a Gmail **App Password**, not your normal password.
+The ISS notifier is meant to run unattended on a server, not from your laptop. Its
+[DEPLOY.md](ISS%20overhead%20notifier/DEPLOY.md) walks through setting it up as a systemd
+service on a cheap/free Linux VM (Oracle Cloud Free Tier, a Raspberry Pi, etc.).
 
 ## Notes
 
-- Secrets (API keys, tokens) belong in a `.env` file, which is git-ignored. Never commit them.
-- Virtual environments (`.venv/`), caches, and driver binaries (`geckodriver`, `*.exe`) are git-ignored — recreate/download them locally as needed.
-- GUI apps (Tkinter/turtle) need a desktop session to display their window.
+- Secrets live in a git-ignored `.env`. Copy `.env.example`, fill it in, and never commit
+  the real thing. For Gmail, use an [App Password](https://myaccount.google.com/apppasswords),
+  not your account password.
+- Virtualenvs (`.venv/`), caches, and driver binaries are git-ignored — recreate them locally.
+- GUI apps (Tkinter/turtle) need a desktop to draw their window.
+</content>
+</invoke>
