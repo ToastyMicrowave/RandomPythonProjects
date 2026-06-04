@@ -1,5 +1,5 @@
 from turtle import Screen
-from pyautogui import sleep
+from time import sleep
 from ball import Ball
 from paddle import Paddle
 from scoreboard import ScoreBoard

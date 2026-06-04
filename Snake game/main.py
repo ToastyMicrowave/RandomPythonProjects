@@ -23,7 +23,7 @@ screen.onkey(snake.down, "s")
 screen.onkey(snake.right, "d")
 
 while True:
-    sleep(0.07)
+    sleep(0.05)
     screen.update()
     snake.move()
 

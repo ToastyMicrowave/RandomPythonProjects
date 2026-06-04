@@ -1,4 +1,37 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Secrets / credentials ----
 .env
-.vscode
-.venv
-/Link Shortener
+*.env
+!*.env.example
+.cache
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Logs & local data ----
+*.log
+
+# ---- Binaries / drivers (download these, don't commit) ----
+*.exe
+geckodriver*
+chromedriver*
+
+# ---- Nested project kept as its own git repo ----
+/Reddit Bot/

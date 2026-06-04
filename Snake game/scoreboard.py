@@ -10,7 +10,7 @@ class ScoreBoard(Turtle):
         self.color("white")
         self.hideturtle()
         self.score = 0
-        with open(r"C:\Python Projects\Snake game\highscore.txt") as highscore_file:
+        with open("./highscore.txt") as highscore_file:
             self.highscore = int(highscore_file.readline())
         self.update_scoreboard()
 
