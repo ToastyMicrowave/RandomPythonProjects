@@ -1,0 +1,18 @@
+[Unit]
+Description=ISS Overhead Email Notifier
+# Wait until the network is actually up before starting.
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+# EDIT these three paths to match where you put the project and which user runs it:
+User=pi
+WorkingDirectory=/home/pi/iss-notifier
+ExecStart=/home/pi/iss-notifier/.venv/bin/python /home/pi/iss-notifier/main.py
+# Restart automatically if it ever crashes or exits.
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
