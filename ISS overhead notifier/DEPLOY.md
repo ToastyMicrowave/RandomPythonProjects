@@ -4,6 +4,41 @@ This guide runs the notifier as a **systemd service** on an always-on Linux box
 (Raspberry Pi, or a cheap/free cloud VM such as Oracle Cloud Free Tier, AWS Lightsail,
 a DigitalOcean droplet, etc.). systemd starts it on boot and restarts it if it crashes.
 
+## Quick start (Oracle Cloud Free Tier)
+
+`deploy.sh` auto-detects your OS, user, and paths — no hand-editing. From your **Mac**:
+
+```bash
+# 1. make sure you have the latest code (includes deploy.sh)
+git -C "/Users/kavishchawla/Documents/Python Projects" pull
+
+# 2. copy this folder to the VM as ~/iss-notifier
+#    SSH user is 'ubuntu' for an Ubuntu image, 'opc' for an Oracle Linux image
+scp -r "ISS overhead notifier" <user>@<vm-public-ip>:~/iss-notifier
+```
+
+Then **SSH into the VM** and run:
+
+```bash
+cd ~/iss-notifier
+bash deploy.sh          # installs venv + deps, sets up & starts the systemd service
+```
+
+If it says it created a `.env`, edit it (`nano ~/iss-notifier/.env`) and run `bash deploy.sh` again.
+
+**Verify SMTP works from Oracle** (port 25 is blocked on OCI, but this app uses 587):
+
+```bash
+cd ~/iss-notifier && ./.venv/bin/python -c "import main; main.send_email(); print('sent')"
+```
+
+You should get an email within a few seconds. If it hangs/fails, see the SMTP note at the bottom.
+No inbound ports or firewall/Security-List changes are needed — the app only makes outbound calls.
+
+---
+
+## Manual steps (any Linux host)
+
 ## 1. Get the code onto the host
 
 On the Raspberry Pi / VM:
