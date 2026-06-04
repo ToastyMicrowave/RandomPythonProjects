@@ -2,12 +2,17 @@ import smtplib
 import time
 import requests
 import datetime
+import os
+import dotenv
+
+dotenv.load_dotenv()
+
+MY_LAT = 31.662127
+MY_LONG = 74.852428
+MY_EMAIL = os.getenv("EMAIL")
+PASS = os.getenv("EMAIL_APP_PASSWORD")
 
 while True:
-    MY_LAT = 31.662127
-    MY_LONG = 74.852428
-    MY_EMAIL = "kavishchawla.alt@gmail.com"
-    PASS = "REDACTED"
 
     # MY AREA SUNRISE / SUNSET TIME
     response = requests.get(
@@ -17,7 +22,7 @@ while True:
     sunrise = int(response.json()["results"]["sunrise"].split("T")[1][:2])
     sunset = int(response.json()["results"]["sunset"].split("T")[1][:2])
 
-    current_time = datetime.datetime.utcnow().hour
+    current_time = datetime.datetime.now(datetime.timezone.utc).hour
 
     if current_time not in range(sunrise, sunset + 1):
         # ISS COORDS

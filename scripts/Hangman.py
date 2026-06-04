@@ -1,6 +1,8 @@
 def random_word_chooser():
     import random
-    with open("./words.txt", "r") as file:
+    from pathlib import Path
+    words_file = Path(__file__).parent / "words.txt"
+    with open(words_file, "r") as file:
         lines = file.readlines()
         return (random.choice(lines)).strip().lower()
 def hangman_ascii_art(guesses):

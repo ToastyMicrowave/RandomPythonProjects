@@ -1,6 +1,11 @@
+from pathlib import Path
 from tkinter import Tk, PhotoImage, Canvas, Button
 import pandas
 import random
+
+BASE_DIR = Path(__file__).parent
+DATA_DIR = BASE_DIR / "data"
+IMAGES_DIR = BASE_DIR / "images"
 
 BACKGROUND_COLOR = "#B1DDC6"
 
@@ -10,16 +15,16 @@ change_trigger = None
 # WORD MANAGEMENT
 try:
     data = pandas.read_csv(
-        r"C:\Python Projects\Flash Card app\data\Words To Learn.csv").to_dict(orient="records")
+        DATA_DIR / "Words To Learn.csv").to_dict(orient="records")
 except FileNotFoundError:
     data = pandas.read_csv(
-        r"C:\Python Projects\Flash Card app\data\french_words.csv").to_dict(orient="records")
+        DATA_DIR / "french_words.csv").to_dict(orient="records")
 
 
 def did_know():
     data.remove(random_word)
     pandas.DataFrame(data).to_csv(
-        path_or_buf="./data/Words To Learn.csv", index=False, columns=["French", "English"])
+        path_or_buf=DATA_DIR / "Words To Learn.csv", index=False, columns=["French", "English"])
     get_french_word()
 
 
@@ -51,14 +56,10 @@ window = Tk()
 window.title("Flashy")
 window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
 
-CARD_FRONT_IMG = PhotoImage(
-    file=r"C:\Python Projects\Flash Card app\images\card_front.png")
-CARD_BACK_IMG = PhotoImage(
-    file=r"C:\Python Projects\Flash Card app\images\card_back.png")
-RIGHT_IMG = PhotoImage(
-    file=r"C:\Python Projects\Flash Card app\images\right.png")
-WRONG_IMG = PhotoImage(
-    file=r"C:\Python Projects\Flash Card app\images\wrong.png")
+CARD_FRONT_IMG = PhotoImage(file=str(IMAGES_DIR / "card_front.png"))
+CARD_BACK_IMG = PhotoImage(file=str(IMAGES_DIR / "card_back.png"))
+RIGHT_IMG = PhotoImage(file=str(IMAGES_DIR / "right.png"))
+WRONG_IMG = PhotoImage(file=str(IMAGES_DIR / "wrong.png"))
 
 canvas = Canvas(bg=BACKGROUND_COLOR, highlightthickness=0,
                 width=800, height=526)

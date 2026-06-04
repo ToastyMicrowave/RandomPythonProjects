@@ -7,12 +7,10 @@ A personal collection of small Python projects, games, bots, and web apps — mo
 | Project | What it is |
 | --- | --- |
 | [Amazon Price checker](Amazon%20Price%20checker/) | Scrapes an Amazon product page and alerts when the price drops. |
-| [Discord DM bot](Discord%20DM%20bot/) | Selenium bot that automates Discord direct messages. |
 | [Flash Card app](Flash%20Card%20app/) | Tkinter flashcard app for learning French vocabulary. |
 | [Flask](Flask/) | A small Flask web app. |
 | [Higher Lower](Higher%20Lower/) | The "Higher or Lower" guessing game (server version). |
 | [ISS overhead notifier](ISS%20overhead%20notifier/) | Emails you when the ISS passes overhead during the night. |
-| [Insta follow bot](Insta%20follow%20bot/) | Selenium bot that auto-follows accounts on Instagram. |
 | [Pomodoro Project](Pomodoro%20Project/) | Tkinter Pomodoro timer. |
 | [Selenium](Selenium/) | Selenium automation experiments. |
 | [Snake game](Snake%20game/) | Classic Snake, built with turtle graphics. |
@@ -28,9 +26,8 @@ Single-file scripts live in [scripts/](scripts/):
 
 | Script | What it does |
 | --- | --- |
-| [Hangman.py](scripts/Hangman.py) | Command-line Hangman game. |
+| [Hangman.py](scripts/Hangman.py) | Command-line Hangman game (words in `scripts/words.txt`). |
 | [Electronic Config calc.py](scripts/Electronic%20Config%20calc.py) | Calculates the electron configuration for a given atomic number. |
-| [FMHY search.py](scripts/FMHY%20search.py) | Searches the FMHY resource list from the terminal. |
 | [old.py](scripts/old.py) | Old Selenium scratch script, kept for reference. |
 
 ## Running a project

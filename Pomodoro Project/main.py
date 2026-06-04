@@ -1,3 +1,4 @@
+from pathlib import Path
 from tkinter import Tk, Button, Label, Canvas, PhotoImage, messagebox
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
@@ -78,7 +79,7 @@ checkmark_label = Label(text="", fg=GREEN, bg=YELLOW,
 checkmark_label.grid(column=1, row=3)
 
 
-tomato_img = PhotoImage(file=r"C:\Python Projects\Pomodoro Project\tomato.png")
+tomato_img = PhotoImage(file=str(Path(__file__).parent / "tomato.png"))
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 canvas.create_image(100, 112, image=tomato_img)
 timer_text = canvas.create_text(100, 130, text="00:00", fill="white",

@@ -1,8 +1,10 @@
+from pathlib import Path
 from tkinter import Button, Canvas, Label, Tk, PhotoImage
 
 from quiz_brain import QuizBrain
 
 THEME_COLOR = "#375362"
+IMAGES_DIR = Path(__file__).parent / "images"
 
 
 class QuizInterface:
@@ -23,16 +25,15 @@ class QuizInterface:
 
         self.get_next_question()
 
-        true_button_img = PhotoImage(
-            file=r"C:\Python Projects\quizzler app\images\true.png")
-        false_button_img = PhotoImage(
-            file=r"C:\Python Projects\quizzler app\images\false.png")
+        # Stored on self so Tkinter doesn't garbage-collect the images (blank buttons otherwise)
+        self.true_button_img = PhotoImage(file=str(IMAGES_DIR / "true.png"))
+        self.false_button_img = PhotoImage(file=str(IMAGES_DIR / "false.png"))
 
         self.true_button = Button(
-            image=true_button_img, highlightthickness=0, command=self.true_pressed)
+            image=self.true_button_img, highlightthickness=0, command=self.true_pressed)
 
         self.false_button = Button(
-            image=false_button_img, highlightthickness=0, command=self.false_pressed)
+            image=self.false_button_img, highlightthickness=0, command=self.false_pressed)
 
         self.true_button.grid(column=0, row=2)
         self.false_button.grid(column=1, row=2)

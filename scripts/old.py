@@ -7,6 +7,12 @@ from selenium.common.exceptions import NoSuchElementException
 from time import sleep
 import pandas as pd
 import json
+import os
+import dotenv
+
+dotenv.load_dotenv()
+REDDIT_USER = os.getenv("REDDIT_USER")
+REDDIT_PASS = os.getenv("REDDIT_PASS")
 
 title = ''
 url = ""
@@ -20,8 +26,8 @@ driver.set_window_position(x=955, y=0)
 driver.implicitly_wait(20)
 
 driver.get("https://www.reddit.com/login")
-driver.find_element(By.ID, "loginUsername").send_keys("REDACTED")
-driver.find_element(By.ID, "loginPassword").send_keys("REDACTED")
+driver.find_element(By.ID, "loginUsername").send_keys(REDDIT_USER)
+driver.find_element(By.ID, "loginPassword").send_keys(REDDIT_PASS)
 sleep(1)
 ActionChains(driver).send_keys(Keys.ENTER).perform()
 sleep(5)
