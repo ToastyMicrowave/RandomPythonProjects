@@ -1,6 +1,8 @@
+from pathlib import Path
 from turtle import Turtle
 FONT = ("Elephant", 16)
 ALIGNMENT = "center"
+HIGHSCORE_FILE = Path(__file__).parent / "highscore.txt"
 
 
 class ScoreBoard(Turtle):
@@ -10,7 +12,7 @@ class ScoreBoard(Turtle):
         self.color("white")
         self.hideturtle()
         self.score = 0
-        with open("./highscore.txt") as highscore_file:
+        with open(HIGHSCORE_FILE) as highscore_file:
             self.highscore = int(highscore_file.readline())
         self.update_scoreboard()
 
@@ -21,7 +23,7 @@ class ScoreBoard(Turtle):
     def update_scoreboard(self):
         if self.score > self.highscore:
             self.highscore = self.score
-            with open("highscore.txt", "w") as highscore_file:
+            with open(HIGHSCORE_FILE, "w") as highscore_file:
                 highscore_file.write(f"{self.highscore}")
         self.clear()
         self.goto(0, 270)

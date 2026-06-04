@@ -1,4 +1,0 @@
-# For old.py (Selenium Reddit script). Hangman.py and Electronic Config calc.py need no extra packages.
-selenium
-pandas
-python-dotenv

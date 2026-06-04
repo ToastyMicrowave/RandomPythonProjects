@@ -10,7 +10,7 @@ dotenv.load_dotenv()
 MY_LAT = 31.662127
 MY_LONG = 74.852428
 MY_EMAIL = os.getenv("EMAIL")
-PASS = os.getenv("EMAIL_APP_PASSWORD")
+PASS = os.getenv("PASSWORD")
 
 while True:
 

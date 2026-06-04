@@ -28,7 +28,6 @@ Single-file scripts live in [scripts/](scripts/):
 | --- | --- |
 | [Hangman.py](scripts/Hangman.py) | Command-line Hangman game (words in `scripts/words.txt`). |
 | [Electronic Config calc.py](scripts/Electronic%20Config%20calc.py) | Calculates the electron configuration for a given atomic number. |
-| [old.py](scripts/old.py) | Old Selenium scratch script, kept for reference. |
 
 ## Running a project
 
